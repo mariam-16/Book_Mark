@@ -1,0 +1,204 @@
+/* mariam */
+a:hover{
+background-color: rgb(152, 176, 197);
+}
+@font-face {
+    font-family:Rubik-Medium ;
+    src: url(../fonts/Rubik-MediumItalic.ttf);
+}
+@font-face {
+    font-family: Rubik-Regular;
+    src: url(../fonts/Rubik-Regular.ttf);
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Rubik-Regular;
+}
+.container{
+    width: 100% ;
+   background-color: #FFFFFF;
+    padding: 20px 25px;
+}
+.main-nav{
+    margin-left: auto;
+    padding-right: 20px;
+}
+.item-nav{
+    margin-left: 20px;
+    text-transform: uppercase;
+    color:rgb(36, 42, 69);
+    font-size: 13px;
+}
+.login{
+    background-color: #FA5959;
+    color: #FFFFFF;
+    font-size: 13px;
+    border-radius: 10px;
+    border: none;
+    width: 70px;
+    height: 30px;
+    text-transform: uppercase;
+    font-family: Rubik-Medium  ;
+}
+.login:hover{
+    background-color: #577ada;
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.fa-bookmark{
+    border-radius: 20px;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    padding-top: 10px;
+    color: white;
+    margin-right: 10px;
+}
+.first-body{
+    display: flex;
+    margin-top: 50px;
+    margin-right: 20px;
+}
+.main-text{
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+}
+.Simple-BookmarkManager{
+    font-family: Rubik-Medium ;
+    font-size: 48px;
+}
+.text-par{
+    font-size: 18px;
+}
+.but-chrom{
+    background-color: #5267DF;
+    color: #FFFFFF;
+    border-radius: 5px;
+    border: none;
+    width: 130px;
+    height: 40px;
+    text-transform: capitalize; 
+    font-size: 14px;
+    font-family: Rubik-Medium  ;
+    padding: 5px;
+}
+.but-chrom:hover{
+    background-color: #9195a1;
+}
+.but-firefox{
+    background-color: rgb(247, 247, 247);
+    color: #242A45;
+    border-radius: 5px;
+    border: none;
+    width: 120px;
+    height: 40px;
+    text-transform: capitalize; 
+    font-size: 14;
+    font-family: Rubik-Medium  ;
+}
+.but-firefox:hover{
+    background-color: #9195a1;;
+}
+.option-but{
+    margin-top: 40px;
+    display: flex;
+}
+.Bookmark-onclick{
+    font-size: 32px;
+    font-family: Rubik-Medium  ; 
+    padding-bottom: 20px;
+}
+.info-but{
+    background-color: rgb(82, 103, 223);
+    color: #FFFFFF;
+    border-radius: 3px;
+    border: none;
+    width: 90px;
+    height: 40px;
+    text-transform: capitalize; 
+    font-size: 14px;
+    font-family: Rubik-Medium  ;
+    margin-top: 40px;
+}
+.info-but:hover{
+    background-color: #577ada;
+}
+.second-body{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: stretch
+}
+.text-bookmark{
+ color:    #242A45;
+    display: flex;
+    flex-direction: column;
+    padding-left: 30px;
+    justify-content: center;
+}
+.text-para{
+    font-size: 18px;
+    text-align: justify;
+}
+.Download{
+    text-align: center;
+    margin-top: 30px;
+   margin-bottom: 30px;
+}
+.the-way{
+    color: #242A45;
+  
+    font-size: 18px;
+}
+.main-heading{
+    color: #242A45;
+    font-family: Rubik-Medium  ;
+    font-size: 32px;
+}
+.Chrome{
+    background-color: #FFFFFF;
+    /* line-height: 50px; */
+    align-content: center;
+}
+.add{
+    margin-left :20px; ;
+    font-size: 20px;
+    font-family: Rubik-Medium ;
+    margin-bottom: 30px;
+}
+.version{
+    margin-left: 10px;
+    padding-bottom: 15px;
+border-bottom: 5px dotted rgb(218, 222, 246);
+}
+.add-install{
+    color: #FFFFFF;
+    background-color: #5267DF;
+    width: 200px;
+    height:  40px;
+    padding: 5px 5px;
+    border-radius: 5px;
+    margin-top: 20px;
+    TEXT-ALIGN: center;
+}
+.add-install:hover{
+    background-color: #95a7d8;   
+}
+.browsers{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 100px;
+}
+.name{
+   
+ 
+    border-radius: 2px;
+    text-align: center;
+}
